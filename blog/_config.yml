@@ -65,6 +65,21 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: next
 
+# Social links
+social:
+  GitHub: https://github.com/zhangmrit
+  #twitter: https://twitter.com/your-user-name
+  Weibo: http://weibo.com/p/1005052719131961/home?is_all=1
+  #douban: http://douban.com/people/your-user-name
+  ZhiHu: http://zhihu.com/people/zhangmrit
+  
+
+# title, chinese available
+links_title: 友情链接
+# links
+links:
+  优极客: http://www.1geek.cn/  
+ 
 duoshuo_shortname: zhangmrit
 duoshuo_hotartical: true
 swiftype_key: DfG-1EyP2_Lak8Bk4vrN

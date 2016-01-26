@@ -12,9 +12,9 @@ keywords: "Hexo, NexT"
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
 rss:
-#icon_font: default
+icon_font: default
 #icon_font: fifty-shades
-icon_font: feather
+#icon_font: feather
 #icon_font: linecons
 # Specify the date when the site was setup
 #since: 2015
@@ -75,7 +75,7 @@ scheme: Mist
 # social:
   #GitHub:
   #Others:
-
+  
 # Social Icons
 social_icons:
   enable: true
