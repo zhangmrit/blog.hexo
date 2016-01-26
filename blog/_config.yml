@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zhangmrit.github.io/murphy.blog/
+url: http://zhangmrit.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -80,9 +80,18 @@ links_title: 友情链接
 links:
   优极客: http://www.1geek.cn/  
  
+# 多说分享服务
+duoshuo_share: true
+
+# 多说评论
 duoshuo_shortname: zhangmrit
 duoshuo_hotartical: true
+
+# 站内搜索
 swiftype_key: DfG-1EyP2_Lak8Bk4vrN
+
+# 百度统计
+baidu_analytics: 179d2d89d8cd472d4299811e5cdf9867
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
