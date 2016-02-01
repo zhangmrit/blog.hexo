@@ -3,7 +3,7 @@ date: 2016-02-01 10:03:41
 categories: 工具
 tags: [前端]
 ---
-SublimeLinter是Sublime的一个代码检测工具插件。但是要正常使用它,还需要安装相印的插件。
+SublimeLinter是Sublime的一个代码检测工具插件。但是要正常使用它,还需要安装相应的插件。
 <!-- more -->
 
 ### Html校验工具
