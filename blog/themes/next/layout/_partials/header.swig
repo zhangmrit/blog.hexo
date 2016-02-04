@@ -56,7 +56,7 @@
         </li>
       {% endif %}
 	  <!-- High一下 start-->
-	  <li class="menu-item menu-item-hightry"> <a title="把这个链接拖到你的Chrome收藏夹工具栏中" href='javascript:(function() {
+	  <li class="menu-item menu-item-hightry"> <a href='javascript:(function() {
     function c() {
         var e = document.createElement("link");
         e.setAttribute("type", "text/css");
