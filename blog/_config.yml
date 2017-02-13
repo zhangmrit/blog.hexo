@@ -88,7 +88,12 @@ duoshuo_shortname: zhangmrit
 duoshuo_hotartical: true
 
 # 站内搜索
-swiftype_key: DfG-1EyP2_Lak8Bk4vrN
+#swiftype_key: DfG-1EyP2_Lak8Bk4vrN
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # 百度统计
 baidu_analytics: 179d2d89d8cd472d4299811e5cdf9867
