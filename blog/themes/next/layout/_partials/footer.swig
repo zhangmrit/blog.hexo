@@ -9,7 +9,9 @@
 </div>
 
 <!--
+{% if theme.copyright %}
 <div class="powered-by">
+  {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
 </div>
 
 <div class="theme-info">
@@ -18,6 +20,5 @@
     NexT.{{ theme.scheme }}
   </a>
 </div>
+{% endif %}
 -->
-
-{% block footer %}{% endblock %}
