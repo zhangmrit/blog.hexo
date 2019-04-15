@@ -173,11 +173,11 @@ baidu_push: false
 menu:
   home: / || home
   categories: /categories || th
-  #about: /about
   archives: /archives || archive
   tags: /tags || tags
   #sitemap: /sitemap.xml
   commonweal: /404.html  || heartbeat
+  about: /about || user
   
 
 # Enable / Disable menu icons / item badges.
