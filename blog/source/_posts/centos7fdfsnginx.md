@@ -3,7 +3,7 @@ date: 2019-08-01 12:12:36
 categories: 工具
 tags: [FastDFS,nginx,centos7]
 ---
-准备搞个IM,用FastDFS来存储聊天文件，随便找个教程就开撸，结果悲剧了,深入了解后，虽然复杂，但并不难，下面帮大家踩坑。
+准备搞个IM,用FastDFS来存储聊天文件，随便找个教程就开撸，结果悲剧了:joy::joy::joy::joy: ,深入了解后，虽然复杂，但并不难，下面帮大家踩坑。
 <!-- more -->
 
 ### 1.FastDFS搭建工具下载
@@ -319,7 +319,7 @@ curl localhost:9991
 /usr/local/nginx/sbin/nginx -s reload
 ngx_http_fastdfs_set pid=8141
 ```
-##### 8.6HTTP测试
+##### 8.4HTTP测试
 浏览器中输入你刚才上传得到的地址或者重新上传一次
 
 ```
