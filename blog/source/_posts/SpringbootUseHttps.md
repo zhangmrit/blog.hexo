@@ -55,8 +55,7 @@ tags: [nginx,https,springboot]
 			proxy_set_header	X-Real-IP			$remote_addr;     
 			proxy_set_header	X-Forwarded-For		$proxy_add_x_forwarded_for;     
 			proxy_set_header	Cookie				$http_cookie;
-			# 重定向会出现跳转http的问题
-        	 proxy_set_header 	X-Forwarded-Proto 	$scheme;
+			proxy_set_header 	X-Forwarded-Proto 	$scheme;
 			proxy_pass			http://tomcat_8088;
 			#proxy_redirect		default;
 		}
