@@ -55,20 +55,24 @@ tags: [nginx,https,springboot]
 			proxy_set_header	X-Real-IP			$remote_addr;     
 			proxy_set_header	X-Forwarded-For		$proxy_add_x_forwarded_for;     
 			proxy_set_header	Cookie				$http_cookie;
-			proxy_pass		    http://tomcat_8088;
+			# 重定向会出现跳转http的问题
+        	 proxy_set_header 	X-Forwarded-Proto 	$scheme;
+			proxy_pass			http://tomcat_8088;
 			#proxy_redirect		default;
 		}
 
 	}
 ```
 
+重定向会出现`http`的问题必须添加
 
+>  proxy_set_header 	X-Forwarded-Proto 	$scheme;
 
 ### 修改springboot相关配置
 
 ```yaml
 server:
-    # 下面2项配置结合nginx防止重定向到http,若无https需求可移除
+    # 下面2项配置结合nginx防止重定向到http
     use-forward-headers: true
     tomcat:
         protocol-header: X-Forwarded-Proto
