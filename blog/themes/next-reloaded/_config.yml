@@ -66,11 +66,11 @@ footer:
     color: "#808080"
 
   # If not defined, `author` from Hexo main config will be used.
-  copyright:
+  copyright: 
 
   powered:
     # Hexo link (Powered by Hexo).
-    enable: true
+    enable: false
     # Version info of Hexo after Hexo link (vX.X.X).
     version: true
 
@@ -83,8 +83,8 @@ footer:
   # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
   # http://www.miitbeian.gov.cn
   beian:
-    enable: false
-    icp:
+    enable: true
+    icp: 浙ICP备18051491号
 
   # Any custom text can be defined here.
   #custom_text: Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
